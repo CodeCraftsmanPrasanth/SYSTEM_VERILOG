@@ -7,3 +7,5 @@ module fixedarray;
     $display("array = %p",array);
   end
 endmodule
+
+array = '{'{36, 129}, '{9, 99}, '{13, 141}, '{101, 18}, '{1, 13}, '{118, 61}}
