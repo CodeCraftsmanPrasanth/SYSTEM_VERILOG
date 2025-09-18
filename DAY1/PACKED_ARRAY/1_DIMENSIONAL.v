@@ -7,3 +7,5 @@ module packedarray1D;
     $display("array = %p",array);
   end
 endmodule
+
+array = '{4, 1, 9}
