@@ -1,4 +1,3 @@
-// Code your design here
 module queuearrayB1D;
   int array[$:8];
   int x;
@@ -11,10 +10,10 @@ module queuearrayB1D;
     array.delete(4);
     $display("deleted array = %p",array);
     x=array.pop_front();
-    $display("x = %0d",x);
+    $display("x_popfront = %0d",x);
     $display("pop_front array = %p",array);
     x=array.pop_back();
-    $display("x = %0d",x);
+    $display("x_popback = %0d",x);
     $display("pop_back array = %p",array);
     array.push_front($random);
     $display("push_front array = %p",array);
