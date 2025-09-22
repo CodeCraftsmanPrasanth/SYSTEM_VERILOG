@@ -12,10 +12,10 @@ module queuearrayB1D;
     $display("deleted array = %p",array);
     x=array.pop_front();
     $display("x = %0d",x);
-    $display("pop array = %p",array);
+    $display("pop_front array = %p",array);
     x=array.pop_back();
     $display("x = %0d",x);
-    $display("pop array = %p",array);
+    $display("pop_back array = %p",array);
     array.push_front($random);
     $display("push_front array = %p",array);
     array.push_back($random);
@@ -29,8 +29,8 @@ array size = 6
 inserted array = '{303379748, -1064739199, -2071669239, 26, -1309649309, 112818957, 1189058957}
 deleted array = '{303379748, -1064739199, -2071669239, 26, 112818957, 1189058957}
 x = 303379748
-pop array = '{-1064739199, -2071669239, 26, 112818957, 1189058957}
+pop_front array = '{-1064739199, -2071669239, 26, 112818957, 1189058957}
 x = 1189058957
-pop array = '{-1064739199, -2071669239, 26, 112818957}
+pop_back array = '{-1064739199, -2071669239, 26, 112818957}
 push_front array = '{-1295874971, -1064739199, -2071669239, 26, 112818957}
 push_back array = '{-1295874971, -1064739199, -2071669239, 26, 112818957, -1992863214}
