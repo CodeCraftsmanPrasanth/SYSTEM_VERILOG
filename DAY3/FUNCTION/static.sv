@@ -1,5 +1,5 @@
 module functionex;
-  int a,b,c;
+  
   function  [31:0] adder();
     int a;
     a++;
