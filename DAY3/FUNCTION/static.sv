@@ -12,3 +12,7 @@ module functionex;
      $display("%d",adder());
   end
 endmodule
+
+1
+2
+3
