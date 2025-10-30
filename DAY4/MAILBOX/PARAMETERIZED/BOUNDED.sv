@@ -20,3 +20,8 @@ module mailbox_generic;
     join
   end
 endmodule
+
+random c=a
+random c=a
+random c=a
+random c=a
