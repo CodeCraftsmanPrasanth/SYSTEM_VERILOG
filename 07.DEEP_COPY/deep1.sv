@@ -41,3 +41,7 @@ module top;
     p2.display("p2");
   end
 endmodule
+
+p1 id=17 data=176 addr=72
+p2 id=15 data=387 addr=214
+p2 id=17 data=176 addr=72
