@@ -25,3 +25,6 @@ module ex;
     c.display();
   end
 endmodule
+
+Child: id=6,addr=56,data=181
+Child: id=6,addr=56,data=181
