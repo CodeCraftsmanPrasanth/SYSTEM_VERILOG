@@ -26,10 +26,10 @@ module assignment_example;
    
   end
 endmodule
-    
-    
-    
-    
-    
-    
-    
+
+p1 value of the a=39, value of the b=61
+p2 value of the a=39, value of the b=61
+p1 value of the a=39, value of the b=61
+p2 value of the a=74, value of the b=71
+p1 value of the a=8, value of the b=52
+p2 value of the a=74, value of the b=71
