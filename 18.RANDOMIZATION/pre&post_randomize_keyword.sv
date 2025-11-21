@@ -17,3 +17,6 @@ module random_ex;
     ra.randomize();
   end
 endmodule
+
+# pre_randomize: a=0,b=0
+# post_randomize: a=12,b=202
