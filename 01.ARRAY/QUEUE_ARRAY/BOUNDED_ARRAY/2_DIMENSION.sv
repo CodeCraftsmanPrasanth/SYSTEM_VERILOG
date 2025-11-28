@@ -1,4 +1,3 @@
-// Code your design here
 module queuearrayB2D;
   int array[$:4][$:2];
   int x[$];
