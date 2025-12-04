@@ -16,7 +16,7 @@ endclass
 class child extends parent;
   int value;
   function void display();
-    $display("Child: id=%0d,addr=%0d,data=%0d,value=%0d",id,addr,data,);
+    $display("Child: id=%0d,addr=%0d,data=%0d,value=%0d",id,addr,data,value);
   endfunction
 endclass
 
@@ -32,3 +32,6 @@ module ex;
     p.display();
   end
 endmodule
+
+# Child: id=5,addr=64,data=137,value=0
+# Child: id=5,addr=64,data=137,value=0
