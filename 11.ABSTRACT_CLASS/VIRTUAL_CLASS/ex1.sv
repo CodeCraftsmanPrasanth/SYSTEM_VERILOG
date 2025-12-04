@@ -1,4 +1,4 @@
-virtual class base;
+virtual class parent;
   int id;
   int addr;
  function void display();
@@ -6,7 +6,7 @@ virtual class base;
   endfunction
 endclass
 
-class parent extends base;
+class child extends parent;
   int data;
   function void display();
     $display("Parent: id=%0d,addr=%0d,data=%0d",id,addr,data);
@@ -23,3 +23,5 @@ module ex;
     p.display();
   end
 endmodule
+
+# Parent: id=5,addr=64,data=137
