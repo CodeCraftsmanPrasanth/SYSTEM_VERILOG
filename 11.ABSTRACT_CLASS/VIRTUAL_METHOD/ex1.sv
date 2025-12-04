@@ -12,7 +12,6 @@ class child extends base;
     $display("Child: id=%0d,addr=%0d,data=%0d",id,addr,data);
   endfunction
 endclass
-
 module ex;
   initial begin
     base b; child c;
