@@ -54,3 +54,8 @@ module class_example;
     cB_tr.disp_cB();
   end
 endmodule
+
+parent_trans: Value of data = 2
+child1_trans: Value of data = 4
+child_A_trans: Value of data = 6
+child1_2_trans: Value of data = 8
