@@ -24,7 +24,14 @@ module example;
     ch.addr=$urandom;
     ch.data=$urandom;
     ch.display();
+    pa.display();
     pa.id=$urandom;
     pa.display();
+    ch.display();
   end
 endmodule
+
+value id=54 value=60 data=125
+value id= 54
+value id=226
+value id=226 value=60 data=125
